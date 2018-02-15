@@ -1,8 +1,8 @@
 # Nil is unfriendly
 
 ## Why not nil?
-**1 it's contaguios
-**2 nil adds no meaning
+** 1 it's contaguios
+** 2 nil adds no meaning
 
 In this example we should verify nil in all the places,
 even do this example is breaking the law of demeter.
