@@ -4,7 +4,7 @@
   | Nothing complicated, for update some values
 
 Let's refactor a red callback, like sending an email after saving, because we can trigger the email in any case,
-like when we save something from the console, or some rake task can trigger the save, and send an eamil to a lot of people.
+like when we save something from the console, or some rake task can trigger the save, and send an email to a lot of people.
 
 Example on how to refactor this cases
 
