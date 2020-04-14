@@ -24,15 +24,6 @@ end
 ## After
 
 ```ruby
-class Order < ActiveRecord
-after_save :send_confirmation_email
-
-private
-
-def send_confirmation_email
-  OrderMailer.confirmation(self).deliver
-end
-
 class OrdersController < ApplicationController
   def create
     @order = build_order
